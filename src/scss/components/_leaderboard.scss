@@ -1,0 +1,38 @@
+.leaderboard {
+    text-align: center;
+
+    h1 {
+        color: $indigo;
+        font-family: $chelsea;
+        font-size: rem(72);
+        line-height: rem(72);
+        text-align: center;
+        line-height: rem(90);
+    }
+
+    .leaderboard-item-container {
+        padding: rem(60);
+        padding-bottom: rem(100);
+    }
+
+    @include breakpoint(desktopLaptop) {
+
+        max-width: rem(800);
+        margin-bottom: rem(30);
+        max-height: rem(800);
+        overflow-y: scroll;
+        ::-webkit-scrollbar {
+            width: 0px;  /* Remove scrollbar space */
+            background: transparent;
+        }
+
+        .button {
+            display: none;
+        }
+
+
+        .leaderboard-item-container {
+            padding: rem(60) 0;
+        }
+    }
+}

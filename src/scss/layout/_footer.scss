@@ -1,0 +1,107 @@
+footer {
+    width: 100%;
+    bottom: 0;
+    background-color: $light-gray;
+    padding: rem(50) rem(50);
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+
+        img {
+            display: inline-block;
+            align-self: center;
+        }
+        
+        .education {
+            max-width: rem(200);
+        }
+
+        .separator {
+            height: rem(90);
+            border-right: rem(1) solid $blue;
+            margin: 0 rem(60);
+        }
+        
+        .unilever {
+            max-width: rem(70);
+        }
+        
+    }
+
+    .footer-signoff {
+        ul {
+            display: flex;
+            justify-content: space-around;
+            padding: rem(30) 0;
+
+            li {
+                a {
+                    &:hover {
+                        font-family: $dinpro;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+        p {
+            text-align: center;
+            line-height: rem(35);
+        }
+    }
+
+    .social {
+        display: flex;
+        justify-content: center;
+
+        a {
+            margin: rem(40);
+            background-color: $medium-gray;
+            padding: rem(15);
+            border-radius: 100%;
+
+            i {
+                font-size: rem(30);
+            }
+
+            &:hover {
+                background-color: $gray;
+                transition: 0.3s;
+            }
+        }
+    }
+
+    @include breakpoint(desktopLaptop) {
+        display: flex;
+        justify-content: space-between;
+        padding: rem(25) rem(75);
+
+        .footer-signoff {
+            ul {
+                li {
+                    a {                        
+                        font-size: rem(14);
+                    }
+                }
+            }
+            p {
+                font-size: rem(14);
+            }
+        }
+
+        .social {
+            justify-content: flex-end;
+
+            a {
+                margin: rem(15);
+                align-self: center;
+                padding: rem(13);
+
+                i {
+                    font-size: rem(15);
+                }
+            }
+        }
+    }
+}

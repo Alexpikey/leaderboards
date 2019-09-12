@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="276px" height="317px" viewBox="0 0 276 317" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>insta</title>
+    <desc>Created with Sketch.</desc>
+    <g id="insta" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Instagram" transform="translate(33.000000, 53.000000)">
+            <circle id="Oval" fill="#EDEEEF" cx="105.5" cy="105.5" r="105.5"></circle>
+            <g id="logo-instagram" transform="translate(50.000000, 50.000000)" fill="#1F213C" fill-rule="nonzero">
+                <ellipse id="Oval" cx="85.015" cy="27" rx="6.72" ry="7"></ellipse>
+                <path d="M56,84 C40.558,84 28,71.442 28,56 C28,40.558 40.558,28 56,28 C71.442,28 84,40.558 84,56 C84,71.442 71.442,84 56,84 Z M56,42 C48.279,42 42,48.279 42,56 C42,63.721 48.279,70 56,70 C63.721,70 70,63.721 70,56 C70,48.279 63.721,42 56,42 Z" id="Shape"></path>
+                <path d="M84,112 L28,112 C13.608,112 0,98.392 0,84 L0,28 C0,13.608 13.608,0 28,0 L84,0 C98.392,0 112,13.608 112,28 L112,84 C112,98.392 98.392,112 84,112 Z M28,14 C21.455,14 14,21.455 14,28 L14,84 C14,90.671 21.329,98 28,98 L84,98 C90.545,98 98,90.545 98,84 L98,28 C98,21.455 90.545,14 84,14 L28,14 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

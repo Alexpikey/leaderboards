@@ -1,0 +1,18 @@
+// Font Face MIXIN
+@mixin face($font-name, $font-file-name) {
+    @font-face {
+        font-family: $font-name;
+        src: url('#{$font-file-name}.eot');
+        src: url('#{$font-file-name}.eot?#iefix') format('embedded-opentype'),
+             url('#{$font-file-name}.otf') format('opentype'),
+             url('#{$font-file-name}.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+}
+
+@include face('icomoon', '../../font/icomoon/icomoon');
+@include face('chelsea', '../../font/sitefonts/ChelseaMarket-Regular');
+@include face('dinpro', '../../font/sitefonts/DINPro-Medium');
+@include face('dinproBold', '../../font/sitefonts/DINPro-Bold');
+@include face('dinproLight', '../../font/sitefonts/DINPro-Light');

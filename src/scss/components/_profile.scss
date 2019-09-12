@@ -1,0 +1,61 @@
+.profile {
+    text-align: center;
+    padding: rem(60);
+
+    img {
+        max-width: rem(280);
+    }
+
+    .profile-name {
+        color: $indigo;
+        font-family: $dinproBold;
+        font-size: rem(58);
+        line-height: rem(71);
+    }
+
+    .status-name {
+        color: $dark-indigo;
+        font-size: rem(28);
+        line-height: rem(50);
+        margin-bottom: rem(68);
+    }
+
+    .position {
+        font-size: rem(28);
+        color: $indigo;
+        span {
+            display: block;
+            margin-top: rem(15);
+            font-family: $dinproBold;
+            font-size: rem(110);
+            color: $indigo;
+        }
+    }
+
+    .account-prompt {
+        padding-top: rem(15);
+        p {
+            line-height: rem(27);
+            color: $dark-indigo;
+
+            a {
+                text-decoration: underline;
+                font-style: italic;
+            }
+        }
+    }
+
+    @include breakpoint(desktopLaptop) {
+        img {
+            max-width: rem(340);
+        }
+
+        .profile-name {
+            font-size: rem(60);
+        }
+
+        .status-name {
+            font-size: rem(30);
+        }
+    }
+}

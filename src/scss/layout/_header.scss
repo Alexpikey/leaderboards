@@ -1,0 +1,80 @@
+.header {
+    background-color: $light-indigo;
+    display: flex;
+    justify-content: space-between;
+    padding: rem(25) rem(30);
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    
+    .icon {
+        color: $white;
+        font-size: rem(15);
+        margin: 0 rem(5);
+    }
+    .back-button {
+        .icon {
+            padding-top: rem(3);
+        }
+        p {
+            color: $white;
+            display: inline;
+        }
+    }
+
+    .tabs-container {
+        a {
+            color: $white;
+            padding: 0 rem(7);
+        }
+    }
+
+    .account-container {
+        display: flex;
+        p {
+            color: $white;
+            display: none;
+        }
+    }
+
+    @include breakpoint(desktopLaptop) {
+        padding: rem(15) rem(100);
+
+        .back-button {
+            p {
+                font-size: rem(14);
+            }
+
+            .icon {
+                font-size: rem(13);
+            }
+
+            &:hover {
+                .icon {
+                    margin-right: rem(7);
+                    transition: 0.3s;
+                }
+            }
+        }
+
+        .tabs-container {
+            a {
+                font-size: rem(14);
+
+                &:hover {
+                    font-family: $dinpro;
+                }
+
+            }
+        }
+
+        .account-container {
+            p {
+                display: inline-block;
+                font-size: rem(14);
+                margin: 0 rem(15);
+            }
+        }
+    }
+}

@@ -1,0 +1,88 @@
+.leaderboard-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: rem(17) rem(30);
+    border-bottom: rem(1) solid $pink;
+
+    .rank {
+        color: $pink;   
+    }
+
+    .profile-icon {
+        height: rem(65);
+        width: rem(65);
+        background-color: $pink;
+        border-radius: 100%;
+    }
+
+    p {
+        font-family: $dinproBold;
+        font-size: rem(24);
+    }
+
+    .details {
+        max-width: rem(140);
+        p {
+            font-size: rem(20);
+        }
+        small {
+            margin-top: rem(10);
+            display: block;
+            font-size: rem(14);
+        }
+    }
+
+    .score {
+        color: $pink;
+    }
+
+    .icon {
+        color: $pink;
+    }
+
+    &.active {
+        background-color: $pink;
+        border-radius: rem(57);
+
+        p, small, .icon {
+            color: $white;
+        }
+
+        .profile-icon {
+            background-color: $white;
+        }
+    }
+
+    @include breakpoint(desktopLaptop) {
+
+        padding: rem(15) rem(30);
+        justify-content: flex-start;
+
+        p {
+            font-family: $dinpro;
+            font-size: rem(20);
+        }
+
+        .rank {
+            margin-right: rem(15);
+        }
+
+        .profile-icon {
+            height: rem(50);
+            width: rem(50);
+            margin-right: rem(25);
+        }
+
+        .details {
+            max-width: unset;
+            text-align: left;
+            flex-grow: 1;
+        }
+
+        .icon {
+            margin-left: rem(25);
+        }
+        
+    }
+}

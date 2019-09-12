@@ -1,0 +1,112 @@
+
+.mobile-backgrounds-container {
+    img {
+        position: absolute;
+        z-index: -1;
+    }
+    .mLightBG {
+        top: 0;
+        width: 100%;
+    }
+    
+    .mdarkBG {
+        top: 0;
+        width: 100%;
+    }
+    
+    .mfadeBG {
+        right: 0;
+        bottom: 0;
+    }
+    
+    .cloud {
+    
+        &1 {
+            top: rem(100);
+            left: rem(-50);
+            width: rem(160);
+        }
+    
+        &2 {
+            top: rem(170);
+            left: 15%;
+            width: rem(75);
+        }
+    
+        &3 {
+            top: rem(200);
+            right: rem(-50);
+            width: rem(160);
+        }
+    }
+
+    .trees {
+        bottom: 0;
+        left: 0;
+    }
+
+}
+
+.backgrounds-container {
+    display: none;
+}
+
+@include breakpoint(desktopLaptop) {
+
+    .mobile-backgrounds-container {
+        display: none;
+    }
+
+    .backgrounds-container {
+        display: block;
+        img {
+            position: absolute;
+            z-index: -1;
+        }
+    
+        .darkBG {
+            left: 0;
+            top: 0;
+            height: 100%;
+        }
+        
+        .LightBG {
+            left: 0;
+            top: 0;
+            height: 100%;
+        }
+    
+        .fadeBG {
+            right: 0;
+            bottom: 0;
+        }
+    
+        .trees {
+            bottom: rem(-20);
+            left: 0;
+            height: rem(400);
+        }
+        
+        .grass {
+            bottom: rem(-100);
+            left: rem(-300);
+        }    
+
+        .cloud {
+            &1 {
+                top: rem(260);
+                left: rem(-80);
+            }
+
+            &2 {
+                display: none;
+            }
+
+            &3 {
+                top: rem(320);
+                left: rem(400);
+
+            }
+        }
+    }
+}

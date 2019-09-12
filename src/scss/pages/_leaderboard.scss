@@ -1,0 +1,13 @@
+.leaderboard-page {
+    padding-top: rem(75);
+    padding-bottom: rem(270);
+    position: relative;
+
+    @include breakpoint(desktopLaptop) {
+        padding-top: rem(50);
+        padding-bottom: rem(100);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

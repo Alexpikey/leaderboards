@@ -1,0 +1,28 @@
+// abstracts
+@import
+    'abstracts/fonts',
+    'abstracts/icomoon',
+    'abstracts/variables',
+    'abstracts/functions',
+    'abstracts/mixins';
+
+// base
+@import
+    'base/reset';
+
+// components
+@import
+'components/profile',
+'components/leaderboard',
+'components/buttons',
+'components/leaderboard-item';
+
+// layout
+@import
+    'layout/header',
+    'layout/backgrounds',
+    'layout/footer';
+
+// pages
+@import
+    'pages/leaderboard';
