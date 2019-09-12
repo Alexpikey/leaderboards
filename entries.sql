@@ -1,0 +1,13 @@
+INSERT INTO `entries` (`id`, `name`, `rankDescription`, `score`) VALUES (1, 'Evan Moss', 'Bathroom Expert', 2560);
+INSERT INTO `entries` (`id`, `name`, `rankDescription`, `score`) VALUES (2, 'Peter Pandora', 'Bathroom Beginner', 2501);
+INSERT INTO `entries` (`id`, `name`, `rankDescription`, `score`) VALUES (3, 'Ben Eecken', 'Bathroom Expert', 2305);
+INSERT INTO `entries` (`id`, `name`, `rankDescription`, `score`) VALUES (4, 'John Ackels', 'Bathroom Beginner', 2010);
+INSERT INTO `entries` (`id`, `name`, `rankDescription`, `score`) VALUES (5, 'Nicole Mont', 'Bathroom Beginner', 2000);
+INSERT INTO `entries` (`id`, `name`, `rankDescription`, `score`) VALUES (6, 'Mornay Jansen', 'Bathroom Expert', 1901);
+INSERT INTO `entries` (`id`, `name`, `rankDescription`, `score`) VALUES (7, 'Anita White', 'Bathroom Expert', 1879);
+INSERT INTO `entries` (`id`, `name`, `rankDescription`, `score`) VALUES (8, 'Cassie Bean', 'Bathroom Beginner', 1532);
+INSERT INTO `entries` (`id`, `name`, `rankDescription`, `score`) VALUES (9, 'Annie Jansen', 'Bathroom Expert', 1500);
+INSERT INTO `entries` (`id`, `name`, `rankDescription`, `score`) VALUES (10, 'Jamie Adams', 'Bathroom Expert', 1275);
+INSERT INTO `entries` (`id`, `name`, `rankDescription`, `score`) VALUES (11, 'Jason van Wyk', 'Bathroom Beginner\r\n', 1250);
+INSERT INTO `entries` (`id`, `name`, `rankDescription`, `score`) VALUES (12, 'Brandon van Niekerk', 'Bathroom Beginner\r\n', 1200);
+INSERT INTO `entries` (`id`, `name`, `rankDescription`, `score`) VALUES (13, 'Annet Freddy', 'Bathroom Beginner', 1114);
